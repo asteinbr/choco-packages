@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/nzbget/nzbget/releases/download/v19.1/nzbget-19.1-bin-win32-setup.exe'
-$url64      = ''
+$url        = 'https://github.com/nzbget/nzbget/releases/download/v20.0/nzbget-20.0-bin-windows-setup.exe'
+$url64      = 'https://github.com/nzbget/nzbget/releases/download/v20.0/nzbget-20.0-bin-windows-setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
